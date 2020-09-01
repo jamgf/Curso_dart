@@ -6,6 +6,10 @@ main() {
   int Function(int, int) soma2 = (x, y) {
     return x + y;
   };
+  var soma3 = (int x, int y) {
+    //tipo Function, mas foi inferido
+    return x + y;
+  };
 }
 
 int somaFn(int a, int b) {
