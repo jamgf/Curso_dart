@@ -12,5 +12,6 @@ main() {
   while (!ferrari.estaParado()) {
     print('A velocidade atual é ${ferrari.frear()}Km/h.');
   }
+  ferrari.velocidadeAtual = 500;
   print('O carro parou com velocidade ${ferrari.velocidadeAtual}Km/h.');
 }

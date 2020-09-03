@@ -4,7 +4,7 @@ main() {
   var notasBoasFn = (double nota) => nota >= 7;
   var notasMuitoBoasFn = (double nota) => nota >= 8.8;
 
-  var ntasBoaso = notas.where(notasBoasFn);
+  var notasBoas = notas.where(notasBoasFn);
   var notasMuitoBoas = notas.where(notasMuitoBoasFn);
 
   print(notas);
